@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="server.js"></script>
     <title>Friend Finder</title>
 </head>
 
@@ -24,133 +23,199 @@
             </div>
             <div class="form-group">
                 <label for="photo">Link to Photo Image (Required)</label>
-                <input type="password" class="form-control" id="photo" placeholder="Photo Link">
+                <input type="link" class="form-control" id="photo" placeholder="Photo Link">
             </div>
             <br>
             <div>
                 <h2>Question 1</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q1" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 2</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q2" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 3</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q3" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 4</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q4" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 5</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q5" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 6</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q6" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 7</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q7" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 8</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q8" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 9</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q9" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
             <div>
                 <h2>Question 10</h2>
-                <h3>Input question here?</h3>
-                <select class="form-control form-control-sm col-sm-2">
-                    <option>1 (Strongly Disagree)</option>
+                <h3>Input question here? (1: Strongly Disagree - 5: Strongly Agree)</h3>
+                <select id="q10" class="form-control form-control-sm col-sm-2">
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option>5</option>
                 </select>
             </div>
             <br>
-            <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+            <button type="button" id="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 
         </form>
     </div>
+
+    <script type="text/javascript">
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            var newFriend = {
+                name: $("#name").val().trim(),
+                link: $("#photo").val().trim(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val(),
+                ]
+            };
+
+            console.log(newFriend);
+
+            $.get("/api/friends")
+                .then(function (data) {
+                    alert("finding friend");
+
+                    var comp = [40];
+
+                    for (var i = 0; i < data.length; i++) {
+
+                        var newFriendScore = newFriend.scores;
+                        var compareFriendScore = data[i].scores;
+                        var totalDifference = 0;
+
+
+                        console.log("This is your score: " + newFriendScore);
+                        console.log("This is " + data[i].name + "'s score: " + compareFriendScore);
+
+                        for (var b = 0; b < compareFriendScore.length; b++) {
+                            if (compareFriendScore[b] > parseFloat(newFriendScore[b])) {
+                                totalDifference += parseFloat(compareFriendScore[b]) - parseFloat(newFriendScore[b]);
+                            } else {
+                                totalDifference += parseFloat(newFriendScore[b]) - parseFloat(compareFriendScore[b]);
+                            }
+                        };
+                        console.log("The total difference of is: " + totalDifference + "\n\n\n");
+
+                        if (totalDifference < comp) {
+                            comp.splice([0]);
+                            comp.push(totalDifference);
+                            console.log(data[i].name + " is the closest match\n\n\n");
+                            var match = data[i].name;
+                        }
+                    };
+
+                    $.post("/api/friends", newFriend)
+
+                });
+        });
+
+    </script>
+
+
+    <script src="server.js"></script>
 </body>
 
 </html>
