@@ -11,6 +11,5 @@ module.exports = function(app){
         var newfriend = req.body;
         friends.push(newfriend);
         res.json(newfriend);
-        console.log("New friend added!");
     });
 }
